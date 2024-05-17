@@ -48,16 +48,9 @@ public class Student {
 	int age;
 	String grade;
 	String address;
-	
-	
+		
 	// 꼭 리턴값이 있어도 되는 것이 아님
 	public void printName() { // 리턴ㄴ값이 없는 메소드
 		System.out.println("학생이름"+ this.name);
 	}
-	
-	
-	
-	
-	
-	
 }

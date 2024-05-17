@@ -7,6 +7,7 @@ public class MainClass {
 		Calculator cal1 = new Calculator();
 		// ** Calculator 클래스로 new 연산자를 사용하여 cal1 객체를 생성 **
 		// ram에 cal1이라는 메모리가 생성된 것임
+		// 생성자 호출
 
 		// Calculator cal2 = new Calculator();
 		
@@ -75,6 +76,8 @@ public class MainClass {
 		printer.println(true);
 		printer.println(5.7);
 		printer.println("홍길동");
+		
+		Woker woker1 = new Woker("홍길동", 27, "01063440086", "서울 용산구");
 		
 	}
 }

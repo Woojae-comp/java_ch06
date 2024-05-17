@@ -4,6 +4,7 @@ public class Calculator {
 // 계산기 클래스를 생성함
 // 필드와 메써드를 생성할 수 있음
 	
+	
 	//속성 or 필드
 	int firstNum;
 	int secondNum;
@@ -41,21 +42,15 @@ public class Calculator {
 	}
 
 	// 매개변수 숫자만 다르게 하면 가능
-	public int pow(int number) {
-		int pow = number * number;
+	public int pow(int first) {
+		int pow = first * first;
 		return pow;
 	}
 	
-	public int pow(int number, int number2) { // Overloading
-		int pow = number * number + number2 * number2;
+	public int pow(int first, int second) { // Overloading
+		int pow = first * first + second * second;
 		return pow;
 	}
-
-
 	// main 함수가 없기 때문에 수행을 못함 - 설계도만 만든 것임
 	// 집을 만드는 클래스는 module
-	
-	
-	
-	
 }
